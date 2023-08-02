@@ -17,7 +17,7 @@
             <p style="font-weight: 600;">Ahmed<br>Khalifa.</p>
         </a>
         <nav class="navbar">
-            <a href="#index" class="active">Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#portfolio">Portfolio</a>
@@ -29,7 +29,7 @@
         </div>
     </header>
     <!-- HERO SECTION -->
-    <section id="index" class="hero">
+    <section id="home" class="hero">
         <div class="container">
             <h1>Hey, I'm Ahmed.</h1>
             <h2>

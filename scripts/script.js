@@ -1,6 +1,14 @@
 //Active Navbar (for vertical scrolling)
+
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
+// Smooth scrolling + padding
+// const navigation = document.querySelector(".navbar");
+// const navHeight = navigation.offsetHeight;
+// document.documentElement.style.setProperty(
+//     "--scroll-padding",
+//     navHeight + "px"
+// );
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -100,7 +108,7 @@ function showToast(msg) {
 
 // $("button").click(clickProjectButton());
 
-
+// Ink effect on cursor
 function enableInkCursor() {
     //TODO (optional)
 }
