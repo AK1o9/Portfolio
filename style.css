@@ -316,8 +316,44 @@ h1 {
     padding: 0 20px;
 }
 
-.circle img {
+.circle {
+    height: 32px;
+    width: 32px;
     border-radius: 50%;
+    border: 2px dashed white;
+    /* background-color: white; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes shrink {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .btn {

@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <!-- Cursor Effect -->
+    <div class="circle"></div>
+    <!-- Header -->
     <header class="header">
         <a href="#" class="logo-text">
             <img src="assets/logo.svg" alt="A.K." height="56px">
@@ -28,6 +31,7 @@
             <!-- Toast Notifications -->
         </div>
     </header>
+
     <!-- HERO SECTION -->
     <section id="home" class="hero">
         <div class="container">
@@ -51,7 +55,7 @@
             <h1>About Me.</h1>
             <br>
             <div class='about-icon'><i class='bx bxs-user-pin'></i></div>
-            <p>Hello! My name is Ahmed, a 21 year-old Sudanese software developer and
+            <p>Hello! My name is Ahmed, a Sudanese software developer, and
                 I like to create many different types of software such as websites (like this), mobile apps, video games and more.
                 Throughout my career, I've been involved in multiple projects ranging from simple websites to fully functioning software such as
                 artificial intelligence chatbots, mobile apps and various other software involving blockchain in addition to other technologies.

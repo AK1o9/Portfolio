@@ -1,14 +1,70 @@
-//Active Navbar (for vertical scrolling)
+// Custom Cursor
+const coords = { x: 0, y: 0 };
+const circles = document.querySelectorAll(".circle");
 
+circles.forEach(function (circle) {
+    circle.x = 0;
+    circle.y = 0;
+});
+
+window.addEventListener("mousemove", function (e) {
+    coords.x = e.clientX;
+    coords.y = e.clientY;
+})
+
+function animateCircles() {
+    let x = coords.x;
+    let y = coords.y;
+
+    circles.forEach(function (circle, index) {
+        circle.style.left = x - 16 + "px"
+        circle.style.top = y - 16 + "px"
+
+        circle.style.scale = (circles.length - index) / circles.length;
+
+        circle.x = x;
+        circle.y = y;
+
+        const nextCircle = circles[index + 1] || circles[0];
+        x += (nextCircle.x - x) * 0.3;
+        y += (nextCircle.y - y) * 0.3;
+    });
+
+    requestAnimationFrame(animateCircles);
+}
+
+animateCircles();
+
+document.addEventListener(
+    'click',
+    () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+        }, 500)
+    }
+);
+
+//Custom Cursor
+// const cursor = document.querySelector('.outer-circle');
+// document.addEventListener('mousemove', e => {
+//     cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px; ")
+// });
+// document.addEventListener(
+//     'click',
+//     () => {
+//         cursor.classList.add("expand");
+
+//         setTimeout(() => {
+//             cursor.classList.remove("expand");
+//         }, 500)
+//     }
+// );
+
+//Active Navbar (for vertical scrolling)
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
-// Smooth scrolling + padding
-// const navigation = document.querySelector(".navbar");
-// const navHeight = navigation.offsetHeight;
-// document.documentElement.style.setProperty(
-//     "--scroll-padding",
-//     navHeight + "px"
-// );
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -25,7 +81,6 @@ window.onscroll = () => {
         };
     });
 }
-
 //typed js
 const typed = new Typed('.multiple-text', {
     strings: ['Software Engineer', 'Full-stack Developer', 'Web Developer', 'Game Developer', 'Mobile App Developer'],
@@ -61,54 +116,4 @@ function showToast(msg) {
     setTimeout(() => {
         toast.remove();
     }, 6000); //in ms
-}
-
-//Page Sliding effect
-//TODO
-
-//Page Swiper effect
-// var swiper = new Swiper(
-//     '.swiper-container', {
-//     direction: 'vertical',
-//     sliderPerView: 1,
-//     spaceBetween: 0,
-//     mousewheel: true,
-//     pagination: {
-//         el: '.swiper-pagination',
-//         type: 'progressbar'
-//     }
-// }
-// )
-
-//Project scroll
-// window.onmousedown = e => {
-//     e.clientX;
-// }
-
-// window.onmousemove = e => {
-//     if(track.dataset.mouseDownAt === "0") return;
-
-//     const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
-//         maxDelta = window.innerWidth / 2;
-
-//     const percentage = (mouseDelta / maxDelta) * 100;
-//     const nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
-
-//     track.dataset.percentage = nextPercentage;
-
-//     track.animate({
-//         transform: 'translate('+ nextPercentage + '%, -50%)'
-//     }, {duration:1200, fill:'forwards'});
-// }
-
-// window.onmouseup = () => {
-//     track.dataset.mouseDownAt = "0";
-//     track.dataset.prevPercentage = track.dataset.percentage;
-// }
-
-// $("button").click(clickProjectButton());
-
-// Ink effect on cursor
-function enableInkCursor() {
-    //TODO (optional)
 }
