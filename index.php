@@ -37,7 +37,7 @@
         <div class="container">
             <h1>Hey, I'm Ahmed.</h1>
             <h2>
-                <<span class="multiple-text"></span>>
+                <span class="multiple-text"></span>
             </h2>
             <br>
             <p>I'm a software engineer who has a huge passion for developing all things software such as video games, mobile applications & websites.
@@ -68,7 +68,7 @@
     </section>
     <!-- SKILLS SECTION -->
     <section id="skills" class="skills">
-        <h1>Skills</h1>
+        <h1>Skills.</h1>
         <p>These are all the technologies that I have significant knowledge of or I'm currently practicing.</p>
         <div class="skills-container">
             <div class='skill-box'>
@@ -125,9 +125,13 @@
                         <p>AWS</p>
                     </li>
                     <li>
+                        <i class='bx bxl-figma'></i>
+                        <p>Figma</p>
+                    </li>
+                    <!-- <li>
                         <i class='bx bx-code'></i>
                         <p>R Language</p>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <div class='skill-box'>
@@ -163,12 +167,12 @@
         <br>
         <div class="project-container">
             <div class="project">
-                <img src="assets/project1.jpg" alt="Project_1">
+                <img src="assets/project1.png" style="transform: scale(1.01);" alt="Project_1">
                 <div class="project-layer">
                     <h4>Mobile App</h4>
                     <h3>HosPal</h3>
                     <p>Emerging amidst the COVID-19 pandemic, <br>HosPal is a Mobile App that's all about helping medical proffesionals seek for jobs within their respective fields.
-                        In addition to helping jobsearchers, it also enables employers to post job listings.</p>
+                        In addition to helping jobsearchers, it also enables employers to post job listings & review job applications.</p>
                     <ul>
                         <li>
                             <a href="javascript:void(0);" onclick="showToast(missingUrlMsg)">LIVE DEMO</a>
@@ -183,13 +187,41 @@
                             |
                         </li>
                         <li>
+                            <a href="https://youtu.be/EJv-Wc6t75U" target="_blank">VIDEO DEMO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/project2.png" style="object-position: 0% 25%; transform: scale(1.4);" alt="Project_2">
+                <div class="project-layer">
+                    <h4>C++ Program</h4>
+                    <h3>Patient Admission System</h3>
+                    <p> This .cpp program is used to run a system for the purpose of registering patients, ordering them within a queue
+                        (in the form of a singly linked list) and performing other adminstrative tasks.
+                        Though a pet project of mine, this system showcases some of my problem solving skillsets and data structure knowledge.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);" onclick="showToast(missingUrlMsg)">LIVE DEMO</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
+                            <a href="https://github.com/AK1o9/PatientAdmission" target="_blank">CODE</a>
+                        </li>
+                        <li>
+                            |
+                        </li>
+                        <li>
                             <a href="#" target="_blank">VIDEO DEMO</a>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="project">
-                <img src="assets/background4.jpg" alt="Project_2">
+                <img src="assets/temp.jpg" alt="Project_3">
                 <div class="project-layer">
                     <h4>Educational Website</h4>
                     <h3>GigHub</h3>
@@ -204,34 +236,6 @@
                         </li>
                         <li>
                             <a href="https://github.com/AK1o9/GigHub" target="_blank">CODE</a>
-                        </li>
-                        <li>
-                            |
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">VIDEO DEMO</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="project">
-                <img src="assets/background5.jpg" alt="Project_3">
-                <div class="project-layer">
-                    <h4>Python Program</h4>
-                    <h3>Patient Admission System</h3>
-                    <p> This Python script is used to run a system used for registering patients, ordering them within a queue
-                        (in the form of a singly linked list) and perform other adminstrative tasks.
-                        Though a pet project of mine, this system showcases some of my problem solving skillsets and data structure knowledge.
-                    </p>
-                    <ul>
-                        <li>
-                            <a href="javascript:void(0);" onclick="showToast(missingUrlMsg)">LIVE DEMO</a>
-                        </li>
-                        <li>
-                            |
-                        </li>
-                        <li>
-                            <a href="https://github.com/AK1o9/PatientAdmission" target="_blank">CODE</a>
                         </li>
                         <li>
                             |
