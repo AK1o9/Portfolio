@@ -57,11 +57,11 @@
             <div class='about-icon'><i class='bx bxs-user-pin'></i></div>
             <p>Hello! My name is Ahmed, a Sudanese software developer, and
                 I like to create many different types of software such as websites (like this), mobile apps, video games and more.
-                Throughout my career, I've been involved in multiple projects ranging from simple websites to fully functioning software such as
-                artificial intelligence chatbots, mobile apps and various other software involving blockchain in addition to other technologies.
+                Throughout my career, I've been involved in multiple projects ranging from simple websites to fully integrated software such as
+                artificial intelligence chatbots, mobile apps for job searching and various other software involving blockchain in addition to other technologies.
                 After getting a good amount of hands-on experience in both front-end and back-end development,
                 I thought it was about time I made my own portfolio to better showcase and document some of my skillsets and expertise.
-                When I'm not developing, I can be found solving coding problems and participating in online programming
+                When I'm not developing, I can sometimes be found solving coding problems and participating in online programming
                 competetitions.
             </p>
         </div>
