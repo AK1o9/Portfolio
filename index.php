@@ -193,7 +193,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="assets/project2.png" style="object-position: 0% 25%; transform: scale(1.4);" alt="Project_2">
+                <img src="assets/project2.png" style="transform: scale(1.3);" alt="Project_2">
                 <div class="project-layer">
                     <h4>C++ Program</h4>
                     <h3>Patient Admission System</h3>
@@ -221,12 +221,12 @@
                 </div>
             </div>
             <div class="project">
-                <img src="assets/temp.jpg" alt="Project_3">
+                <img src="assets/project3.png" alt="Project_3">
                 <div class="project-layer">
-                    <h4>Educational Website</h4>
-                    <h3>GigHub</h3>
-                    <p>GigHub is an Educational platform which serves to improve technological literacy amongst underpriveleged children in Malaysia
-                        , in particular. The website offers multiple IT-themed courses, certification programs and other events. </p>
+                    <h4>CLI Python Script</h4>
+                    <h3>Ferry Booking System </h3>
+                    <p> This is an old Python-programmed CLI application for registering customers, booking ferry seats and printing reservation tickets.
+                        Includes both business and economy class seats. </p>
                     <ul>
                         <li>
                             <a href="javascript:void(0);" onclick="showToast(missingUrlMsg)">LIVE DEMO</a>
@@ -235,7 +235,7 @@
                             |
                         </li>
                         <li>
-                            <a href="https://github.com/AK1o9/GigHub" target="_blank">CODE</a>
+                            <a href="https://github.com/AK1o9/FerryBooking" target="_blank">CODE</a>
                         </li>
                         <li>
                             |

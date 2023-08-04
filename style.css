@@ -23,7 +23,6 @@ h1 {
     width: 32px;
     border-radius: 50%;
     border: 2px dashed white;
-    /* background-color: white; */
     position: fixed;
     top: 0;
     left: 0;
@@ -106,7 +105,6 @@ h1 {
 
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.45)), url('assets/background.JPG');
-    /* background-image: url('assets/img\ \(3\).JPG'); */
     background-size: cover;
     text-align: center;
     padding: 240px 0;
