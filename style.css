@@ -80,7 +80,7 @@ h1 {
 
 .logo-text {
     display: flex;
-    color: #f5f5f5;
+    color: #fff;
     text-decoration: none;
     align-items: center;
     font-size: smaller;
@@ -89,7 +89,7 @@ h1 {
 
 .navbar a {
     font-size: 16px;
-    color: white;
+    color: #f5f5f5;
     text-decoration: none;
     font-weight: 500;
     margin-left: 25px;
@@ -112,7 +112,7 @@ h1 {
 }
 
 .about {
-    background-color: #fffcec;
+    background-color: #FFFFED;
     text-align: center;
     padding: 200px 0;
 }
@@ -139,7 +139,7 @@ h1 {
 }
 
 .skill-box {
-    background: #fffcec;
+    background: #FFFFED;
     color: black;
     border-radius: 30px;
     padding: 20px 0 20px 0;
@@ -192,7 +192,7 @@ h1 {
     overflow: hidden;
     display: flex;
     color: black;
-    background-color: #f5f5f5;
+    /* background-color: transparent; */
 }
 
 .project img {
@@ -221,13 +221,11 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 0rem;
     transition: .5s ease;
     align-content: center;
 }
 
 .project h3 {
-
     font-weight: normal;
     color: #f5f5f5;
     margin-bottom: .5rem;
@@ -240,17 +238,17 @@ h1 {
 }
 
 .project p {
-    color: #f5f5f5;
+    color: white;
     margin-bottom: .8rem;
 }
 
 .project li {
     display: inline-block;
-    color: #f5f5f5;
+    color: white;
 }
 
 .project a {
-    color: #f5f5f5;
+    color: white;
     margin: 0 3px 0 3px;
     /* padding: .8rem; */
     /* border: 2px none #f5f5f5; */
@@ -337,7 +335,7 @@ h1 {
 }
 
 .services {
-    background-color: #fffcec;
+    background-color: #FFFFED;
     text-align: center;
     padding: 200px 0;
 }
@@ -471,7 +469,6 @@ h1 {
 .services-box p {
     font-size: 18px;
     margin: 1rem 0 3rem;
-
 }
 
 .contact-sci {

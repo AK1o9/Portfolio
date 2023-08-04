@@ -40,7 +40,7 @@
                 <span class="multiple-text"></span>
             </h2>
             <br>
-            <p>I'm a software engineer who has a huge passion for developing all things software such as video games, mobile applications & websites.
+            <p>I'm a software engineer who has a huge passion for developing all things software like video games, mobile applications & websites.
                 As a hungry learner, I'm always willing to take my skills to the next level, especially when it comes to problem solving & game programming.</p>
             <br><br>
             <div class="btn-box">
@@ -58,7 +58,7 @@
             <p>Hello! My name is Ahmed, a Sudanese software developer, and
                 I like to create many different types of software such as websites (like this), mobile apps, video games and more.
                 Throughout my career, I've been involved in multiple projects ranging from simple websites to fully integrated software such as
-                artificial intelligence chatbots, mobile apps for job searching and various other software involving blockchain in addition to other technologies.
+                artificial intelligence chatbots, mobile platforms and various other software involving blockchain as well as other technologies.
                 After getting a good amount of hands-on experience in both front-end and back-end development,
                 I thought it was about time I made my own portfolio to better showcase and document some of my skillsets and expertise.
                 When I'm not developing, I can sometimes be found solving coding problems and participating in online programming
@@ -162,7 +162,7 @@
     <!-- PORTFOLIO SECTION -->
     <section id="portfolio" class="portfolio">
         <h1>Portfolio.</h1>
-        <p>Here are some of my recently completed projects (and those that are under progress).</p>
+        <p>Here are some of my recently completed projects (and others that are under progress).</p>
         <br>
         <br>
         <div class="project-container">
@@ -257,38 +257,31 @@
     <!-- SERVICES SECTION (OPTIONAL) -->
     <section id="services" class="services">
         <h1>Services.</h1>
-        <p>These are some of the services that I offer as a freelancer.</p>
+        <p>These are some of the services that I offer as a freelancer. Feel free to contact me if you're interested! </p>
         <br>
         <div class="services-container">
             <div class="services-box">
                 <i class='bx bx-mobile-alt'></i>
                 <h3>Mobile App Development</h3>
-                <p>Lorem ipsum la cosa la la la mama mia oko ponco latoto.
-                </p>
+                <!-- <p>
+                    Lorem ipsum la cosa la la la mama mia oko ponco latoto.
+                </p> -->
             </div>
             <div class="services-box">
                 <i class='bx bx-globe'></i>
                 <h3>Web Development</h3>
-                <p>Lorem ipsum la cosa la la la mama mia oko ponco latoto.
-                </p>
             </div>
             <div class="services-box">
                 <i class='bx bx-brush'></i>
                 <h3>Front-end Software<br>Development</h3>
-                <p>Lorem ipsum la cosa la la la mama mia oko ponco latoto.
-                </p>
             </div>
             <div class="services-box">
                 <i class='bx bx-data'></i>
                 <h3>Back-end Software<br>Development</h3>
-                <p>Lorem ipsum la cosa la la la mama mia oko ponco latoto.
-                </p>
             </div>
             <div class="services-box">
                 <i class='bx bx-chat'></i>
                 <h3>Java Consultation</h3>
-                <p>Lorem ipsum la cosa la la la mama mia oko ponco latoto.
-                </p>
             </div>
         </div>
     </section>
