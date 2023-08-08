@@ -257,7 +257,7 @@
     <!-- SERVICES SECTION (OPTIONAL) -->
     <section id="services" class="services">
         <h1>Services.</h1>
-        <p>These are some of the services that I offer as a freelancer. Feel free to contact me if you're interested! </p>
+        <p>These are some of the services that I offer as a freelancer. Feel free to contact me if you're interested. </p>
         <br>
         <div class="services-container">
             <div class="services-box">

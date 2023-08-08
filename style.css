@@ -63,6 +63,7 @@ h1 {
     top: 0;
     left: 0;
     width: 80%;
+    /* padding: 20px 100px 20px 20px; */
     padding: 10px 10%;
     background: rgba(0, 0, 0, 0.8);
     display: flex;
@@ -141,7 +142,7 @@ h1 {
 .skill-box {
     background: #FFFFED;
     color: black;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     padding: 20px 0 20px 0;
 }
 
@@ -155,7 +156,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
-    padding: 0 150px 30px 150px;
+    padding: 0 100px 30px 100px;
 }
 
 .skill-box li {
@@ -192,7 +193,6 @@ h1 {
     overflow: hidden;
     display: flex;
     color: black;
-    /* background-color: transparent; */
 }
 
 .project img {
@@ -523,4 +523,50 @@ footer {
     text-align: center;
     padding: 15px;
     color: #fff;
+}
+
+/* RESPONSIVENESS/BREAKPOINTS */
+@media (max-width: 1200px) {
+
+    /* html {
+        font-size: 70%;
+    } */
+    .skills-container {
+        display: block;
+    }
+
+    .skill-box {
+        margin-bottom: 1rem;
+    }
+
+    .project p {
+        font-size: 80%;
+    }
+}
+
+/* @media (max-width: 991px) {
+    .header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+} */
+
+@media (max-width: 768px) {
+
+
+    .skill-box ul {
+        padding: 0 60px 30px 60px;
+    }
+
+    .project-container {
+        display: block;
+    }
+
 }
