@@ -245,7 +245,7 @@
                             |
                         </li>
                         <li>
-                            <a href="#" target="_blank">VIDEO DEMO</a>
+                            <a href="javascript:void(0);" onclick="showToast(missingUrlMsg)">VIDEO DEMO</a>
                         </li>
                     </ul>
                 </div>
