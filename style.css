@@ -362,7 +362,7 @@ h1 {
     border-radius: 5px;
 }
 
-.btn-box {
+.util-box {
     margin: auto;
     justify-content: space-between;
     display: flex;
@@ -370,7 +370,17 @@ h1 {
     height: 50px;
 }
 
-.btn-box a {
+.util-box p {
+    margin-top: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: start;
+    width: 150px;
+    height: 100%;
+    font-size: 14px;
+}
+
+.util-box a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -387,7 +397,7 @@ h1 {
     transition: 200ms;
 }
 
-.btn-box a:hover {
+.util-box a:hover {
     background: white;
     color: black;
 }

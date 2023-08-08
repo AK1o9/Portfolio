@@ -37,15 +37,19 @@
         <div class="container">
             <h1>Hey, I'm Ahmed.</h1>
             <h2>
-                <span class="multiple-text"></span>
+                <<span class="multiple-text"></span>>
             </h2>
             <br>
             <p>I'm a software engineer who has a huge passion for developing all things software like video games, mobile applications & websites.
                 As a hungry learner, I'm always willing to take my skills to the next level, especially when it comes to problem solving & game programming.</p>
             <br><br>
-            <div class="btn-box">
+            <div class="util-box">
                 <a href="#portfolio">PORTFOLIO</a>
                 <a href="assets/Ahmed Ali - CV.pdf" target="_blank">MY RESUME</a>
+            </div>
+            <div class='util-box'>
+                <p></p>
+                <p>* Opens PDF doc in a new tab.</p>
             </div>
         </div>
     </section>
@@ -162,7 +166,7 @@
     <!-- PORTFOLIO SECTION -->
     <section id="portfolio" class="portfolio">
         <h1>Portfolio.</h1>
-        <p>Here are some of my recently completed projects (and others that are under progress).</p>
+        <p>Here are some of my recently completed projects (and others that may be under progress).</p>
         <br>
         <br>
         <div class="project-container">
@@ -248,11 +252,14 @@
             </div>
         </div>
         <br>
-        <div class="btn-box">
+        <div class="util-box">
             <a href="https://github.com/AK1o9?tab=repositories" target="_blank">SEE MORE</a>
             <a href="assets/Ahmed Ali - CV.pdf" target="_blank">MY RESUME</a>
         </div>
-
+        <div class="util-box">
+            <p>* Opens my GitHub in a new tab.</p>
+            <p>* Opens PDF doc in a new tab.</p>
+        </div>
     </section>
     <!-- SERVICES SECTION (OPTIONAL) -->
     <section id="services" class="services">
