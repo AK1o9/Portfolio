@@ -5,7 +5,7 @@ Built using PHP, HTML, CSS & Javascript.
 
 ## Sections
 ### Home
-- This page contains a summary about myself and message. 
+- This page contains a summary about myself and my aims. 
 ![image](https://github.com/AK1o9/portfolio/assets/96708800/a0c5c7da-35e1-4538-95fd-5146ed8c8362)
 ### About
 - Here is where I express even more about myself and my experiences.
@@ -16,4 +16,4 @@ Built using PHP, HTML, CSS & Javascript.
 ### Services
 - Displays a list of the services that I offer as a freelance software engineer.
 ### Contact
-- This is where I display all of contact information.
+- Here, you can find out how to contact me through various media/outlets.
