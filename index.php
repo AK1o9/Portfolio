@@ -219,7 +219,7 @@
                             |
                         </li>
                         <li>
-                            <a href="#" target="_blank">VIDEO DEMO</a>
+                            <a href="https://youtu.be/9ItcM62mEe4" target="_blank">VIDEO DEMO</a>
                         </li>
                     </ul>
                 </div>
