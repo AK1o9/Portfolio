@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 This is the source code for my own portfolio website.
 
 Built using PHP, HTML, CSS & Javascript.
