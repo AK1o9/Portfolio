@@ -250,8 +250,6 @@ h1 {
 .project a {
     color: white;
     margin: 0 3px 0 3px;
-    /* padding: .8rem; */
-    /* border: 2px none #f5f5f5; */
     font-weight: 600;
     text-decoration: none;
 }
@@ -511,23 +509,6 @@ h1 {
     color: black;
 }
 
-/* #image-track {
-    margin: auto;
-    display: flex;
-    gap:4vmin;
-    position: relative;
-    left:50%;
-    top: 50%;
-    transform: translate(0%, -50%);
-}
-
-#image-track > .image {
-    width: 40vmin;
-    height: 56vmin;
-    object-fit: cover;
-    object-position: center;
-} */
-
 footer {
     background-color: #000;
     text-align: center;
@@ -535,12 +516,13 @@ footer {
     color: #fff;
 }
 
-/* RESPONSIVENESS/BREAKPOINTS */
+/* RESPONSIVENESS - BREAKPOINTS */
 @media (max-width: 1200px) {
 
     /* html {
         font-size: 70%;
     } */
+    
     .skills-container {
         display: block;
     }
@@ -569,7 +551,6 @@ footer {
 } */
 
 @media (max-width: 768px) {
-
 
     .skill-box ul {
         padding: 0 60px 30px 60px;
