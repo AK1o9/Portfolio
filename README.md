@@ -18,7 +18,7 @@ Built using HTML, CSS & Javascript.
 
 ### Skills
 
-- This is where I showcase my technological stacks, or in other words, all the technologies and programming languages that I use.
+- This is where I showcase my tech stacks, or in other words, all the technologies and programming languages that I use.
 
 ### Portfolio
 
