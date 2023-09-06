@@ -4,7 +4,7 @@ This is the source code for my own portfolio website.
 
 Built using HTML, CSS & Javascript.
 
-![image](https://github.com/AK1o9/portfolio/assets/96708800/a0c5c7da-35e1-4538-95fd-5146ed8c8362)
+![image](https://github.com/AK1o9/Portfolio/assets/96708800/082c20ce-4388-402a-a74e-f89223e45cd6)
 
 ## Sections
 
