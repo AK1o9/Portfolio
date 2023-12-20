@@ -63,8 +63,9 @@ h1 {
     top: 0;
     left: 0;
     width: 80%;
-    /* padding: 20px 100px 20px 20px; */
     padding: 10px 10%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: space-between;
