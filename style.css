@@ -257,12 +257,12 @@ h1 {
 
 #toast-box {
     position: fixed;
-    bottom: 30px;
+    top: 30px;/*bottom*/
     right: 30px;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    overflow: hidden;
+    overflow:hidden;
     padding: 20px;
 }
 
@@ -271,11 +271,11 @@ h1 {
     height: 80px;
     color: black;
     background: #fff;
-    margin: 15px 0;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: 50px 0;/*15 0*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
-    position: relative;
+    position: fixed;/*relative*/
     transform: translateX(100%);
     animation: moveleft 0.4s linear forwards;
 }
