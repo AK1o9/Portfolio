@@ -86,23 +86,36 @@ h1 {
     text-decoration: none;
     align-items: center;
     font-size: smaller;
-    /* font-weight: lighter; */
 }
+
+.navbar .links, .navbar{
+    display: flex;
+    gap: 29px;
+}
+
 
 .navbar a {
     font-size: 16px;
     color: #f5f5f5;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 25px;
     transition: 150ms;
 }
 
-.navbar a:hover,
-.navbar a.active,
-.navbar a:focus {
+.navbar .links a:hover,
+.navbar .links a.active,
+.navbar .links a:focus {
     font-weight: 700;
     color: #f5f5f5;
+}
+
+.navbar .hamburger i {
+    font-size: 34px;
+}
+
+.navbar .hamburger {
+    display: none;
+    cursor: pointer;
 }
 
 .hero {
@@ -143,7 +156,6 @@ h1 {
 .skill-box {
     background: #FFFFED;
     color: black;
-    /* border-radius: 30px; */
     padding: 20px 0 20px 0;
 }
 
@@ -177,8 +189,9 @@ h1 {
 }
 
 .project-container {
+    padding: 0px 10% 0px 10%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     /*syntax: (columns, row) <-- columns per row */
     align-items: center;
     gap: 2.5rem;
@@ -414,7 +427,6 @@ h1 {
     transition: .2s;
     color: #f5f5f5;
     background: black !important;
-    /* background-position: 750px 750px !important; */
     border: none;
 }
 
@@ -444,8 +456,8 @@ h1 {
 }
 
 .services-container {
-    margin: 10px 40px 0 40px;
-    display: inline-flex;
+    margin: 10px 40px 0px 40px;
+    display:inline-flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -458,13 +470,11 @@ h1 {
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    /* border: 2px solid black; */
     color: black;
     transition: .3s ease;
 }
 
 .services-container .services-box:hover {
-    /* border-color: black; */
     transform: scale(1.02);
     background: black;
     color: #f5f5f5;
@@ -519,10 +529,6 @@ footer {
 
 /* RESPONSIVENESS - BREAKPOINTS */
 @media (max-width: 1200px) {
-
-    /* html {
-        font-size: 70%;
-    } */
     
     .skills-container {
         display: block;
@@ -537,19 +543,43 @@ footer {
     }
 }
 
-/* @media (max-width: 991px) {
-    .header {
-        padding: 2rem;
+@media (max-width: 780px) {
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-end;
     }
-
-    section {
-        padding: 10rem 3% 2rem;
+    
+    .navbar .hamburger{
+        display: flex;
     }
-
-    .footer {
-        padding: 2rem 3%;
+    
+    .navbar .hamburger.active { 
     }
-} */
+    
+    .navbar .links{
+        display: none;
+        position: fixed;
+        top: 64px;
+        background-color: rgba(0, 0, 0, 0.4);
+        -webkit-backdrop-filter: blur(8px);
+        backdrop-filter: blur(8px);
+        width: 100%;
+        flex-direction: column;
+        transition: .4s;
+        text-align: center;
+        opacity: 0%;
+        left: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .navbar .links.active{
+        top: 76px;
+        display: flex;
+        opacity: 100%;
+    }
+}
 
 @media (max-width: 768px) {
 
@@ -560,5 +590,4 @@ footer {
     .project-container {
         display: block;
     }
-
 }

@@ -6,8 +6,6 @@
     <link rel="icon" type="image/svg" href="assets/logo.svg">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
 </head>
 
 <body>
@@ -20,12 +18,17 @@
             <p style="font-weight: 600;">Ahmed<br>Khalifa.</p>
         </a>
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+            <a class="hamburger">
+                <i class='bx bx-dots-vertical-rounded'></i>
+            </a>
+            <div class="links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
         <div id="toast-box">
             <!-- Toast Notifications -->
@@ -233,7 +236,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="project">
+            <!-- <div class="project">
                 <img src="assets/project3.png" alt="Project_3">
                 <div class="project-layer">
                     <h4>CLI Python Script</h4>
@@ -259,12 +262,12 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </div>
         <br>
         <div class="util-box">
             <a href="https://github.com/AK1o9?tab=repositories" target="_blank">SEE MORE</a>
-            <a href="assets/Ahmed Ali - CV.pdf" target="_blank">MY RESUME</a>
+            <a href="assets/Ahmed Ali - Resume.pdf" target="_blank">MY RESUME</a>
         </div>
         <div class="util-box">
             <p>* Opens GitHub in a new tab.</p>
@@ -279,28 +282,32 @@
         <br>
         <div class="services-container">
             <div class="services-box">
-                <i class='bx bx-mobile-alt'></i>
-                <h3>Mobile App Development</h3>
-                <!-- <p>
-                    Lorem ipsum la cosa la la la mama mia oko ponco latoto.
-                </p> -->
-            </div>
-            <div class="services-box">
                 <i class='bx bx-globe'></i>
                 <h3>Web Development</h3>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-brush'></i>
+                <h3>UI/UX Development</h3>
             </div>
             <div class="services-box">
                 <i class='bx bx-chat'></i>
                 <h3>Tutoring</h3>
             </div>
-            <div class="services-box">
+            <!-- <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Mobile App Development</h3>
+                <p>
+                    Lorem ipsum la cosa la la la mama mia oko ponco latoto.
+                </p>
+            </div> -->
+            <!-- <div class="services-box">
                 <i class='bx bx-brush'></i>
                 <h3>Front-end Development</h3>
             </div>
             <div class="services-box">
                 <i class='bx bx-data'></i>
                 <h3>Back-end Development</h3>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- CONTACT SECTION -->
@@ -315,7 +322,6 @@
         <br><br><br>
         <p>&lt; Email Address &gt;<br>itsahmed1o9@gmail.com</p>
     </section>
-
 
     <footer>
         <p>&copy; 2023 Ahmed Khalifa. All rights reserved.</p>

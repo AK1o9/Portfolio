@@ -35,20 +35,19 @@ function animateCircles() {
 
 animateCircles();
 
-// document.addEventListener(
-//     'click',
-//     () => {
-//         cursor.classList.add("expand");
 
-//         setTimeout(() => {
-//             cursor.classList.remove("expand");
-//         }, 500)
-//     }
-// );
+//Hamburger toggle - for mobile devices
+let hamburgerButton = document.getElementsByClassName('hamburger')[0];
+let navbarLinks = document.getElementsByClassName('links')[0];
+
+hamburgerButton.addEventListener('click', () => {
+    hamburgerButton.classList.toggle('active');
+    navbarLinks.classList.toggle('active');    
+})
 
 //Active Navbar (for vertical scrolling)
 let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
+let navLinksAll = document.querySelectorAll('header nav div a');
 
 window.onscroll = () => {
     sections.forEach(sec => {
@@ -58,9 +57,9 @@ window.onscroll = () => {
         let id = sec.getAttribute('id');
 
         if (top >= offset && top < offset + height) {
-            navLinks.forEach(links => {
+            navLinksAll.forEach(links => {
                 links.classList.remove('active');
-                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+                document.querySelector('header nav div a[href*=' + id + ']').classList.add('active');
             });
         };
     });
