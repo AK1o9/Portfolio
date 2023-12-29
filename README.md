@@ -18,11 +18,11 @@ Built using HTML, CSS & Javascript.
 
 ### Skills
 
-- This is where I showcase my tech stacks, or in other words, all the technologies and programming languages that I use.
+- This is where I showcase my all the technologies and tech stacks that I use.
 
 ### Portfolio
 
-- This sections shows off some of my recent projects.
+- This section shows off some of my recent projects.
 
 ### Services
 
