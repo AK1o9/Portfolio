@@ -1,8 +1,9 @@
 # Portfolio
+![Static Badge](https://img.shields.io/badge/HTML-grey?logo=html5)
+![Static Badge](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/JavaScript-grey?logo=javascript)
 
-This is the source code for my own portfolio website.
-
-Built using HTML, CSS & Javascript.
+This is my very own and professional portfolio website.
 
 ![image](https://github.com/AK1o9/Portfolio/assets/96708800/082c20ce-4388-402a-a74e-f89223e45cd6)
 
