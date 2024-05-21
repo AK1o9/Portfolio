@@ -1,7 +1,7 @@
 # Portfolio
-![Static Badge](https://img.shields.io/badge/HTML-grey?logo=html5)
-![Static Badge](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=blue)
-![Static Badge](https://img.shields.io/badge/JavaScript-grey?logo=javascript)
+![Static Badge](https://img.shields.io/badge/html-grey?style=for-the-badge&logo=html5)
+![Static Badge](https://img.shields.io/badge/css-grey?style=for-the-badge&logo=css3&logoColor=blue)
+![Static Badge](https://img.shields.io/badge/javascript-grey?style=for-the-badge&logo=javascript)
 
 This is my very own and professional portfolio website.
 
