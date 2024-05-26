@@ -42,7 +42,7 @@ let navbarLinks = document.getElementsByClassName('links')[0];
 
 hamburgerButton.addEventListener('click', () => {
     hamburgerButton.classList.toggle('active');
-    navbarLinks.classList.toggle('active');    
+    navbarLinks.classList.toggle('active');
 })
 
 //Active Navbar (for vertical scrolling)
@@ -66,7 +66,7 @@ window.onscroll = () => {
 }
 //typed js
 const typed = new Typed('.multiple-text', {
-    strings: ['Software Engineer', 'Full Stack Developer', 'Web Developer', 'Game Developer', 'Mobile App Developer'],
+    strings: ['Software Engineer', 'Web Developer', 'Full Stack Developer', 'Game Developer', 'Mobile App Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 300,
